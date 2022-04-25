@@ -36,7 +36,7 @@ const Verify = () => {
       img3: img3,
       img4: img4,
     };
-    fetch("https://shrouded-beach-70099.herokuapp.com/images", {
+    fetch("https://safe-hamlet-43593.herokuapp.com/images", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(idImg),
